@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Local environment and tooling
+.env.local
+.env.*.local
+.vercel/
+.supabase/
+*.local
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
